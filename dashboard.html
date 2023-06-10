@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>商業儀表板</title>
+    <style>
+        /* 整體頁面樣式 */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        /* 上排區塊樣式 */
+        #top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+        
+        /* 左邊業務人員框架樣式 */
+        #salespeople {
+            display: flex;
+            align-items: center;
+        }
+        
+        /* 業務人員資訊樣式 */
+        .salesperson {
+            margin-right: 20px;
+        }
+        
+        /* 右邊業務目標樣式 */
+        #sales-target {
+            font-weight: bold;
+        }
+        
+        /* 中間區塊樣式 */
+        #middle {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #e6e6e6;
+        }
+        
+        /* 左邊按摩椅使用狀況樣式 */
+        #chair-usage {
+            width: 50%;
+        }
+        
+        /* 右邊店家數量和業績目標樣式 */
+        #store-info {
+            width: 50%;
+        }
+        
+        /* 下排區塊樣式 */
+        #bottom {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+        
+        /* 左邊市售按摩椅樣式 */
+        #product-info {
+            width: 50%;
+        }
+        
+        /* 右邊顧客性別比例樣式 */
+        #customer-gender {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <!-- 上排區塊 -->
+    <div id="top">
+        <!-- 左邊業務人員框架 -->
+        <div id="salespeople">
+            <div class="salesperson">
+                <div>業務ID：001</div>
+                <div>姓名：張三</div>
+                <div>電話：0901234567</div>
+            </div>
+            <div class="salesperson">
+                <div>業務ID：002</div>
+                <div>姓名：李四</div>
+                <div>電話：0912345678</div>
+            </div>
+            <div class="salesperson">
+                <div>業務ID：003</div>
+                <div>姓名：王五</div>
+                <div>電話：0923456789</div>
+            </div>
+        </div>
+        <!-- 右邊業務目標 -->
+        <div id="sales-target">
+            <h3>業務目標</h3>
+              <div>本月銷售目標：$50,000</div>
+              <div>達成進度：70%</div>
+        </div>
+    </div>
+<!-- 中間區塊 -->
+<div id="middle">
+  <!-- 左邊按摩椅使用狀況 -->
+  <div id="chair-usage">
+      <h3>按摩椅使用狀況</h3>
+      <ul>
+          <li>按摩椅1：運作正常</li>
+          <li>按摩椅2：需要維修</li>
+          <li>按摩椅3：運作正常</li>
+          <li>按摩椅4：運作正常</li>
+      </ul>
+  </div>
+  <!-- 右邊店家數量和業績目標 -->
+  <div id="store-info">
+      <h3>店家資訊</h3>
+      <div>目前店家數量：10</div>
+      <div>業績目標：$100,000</div>
+  </div>
+</div>
+
+<!-- 下排區塊 -->
+<div id="bottom">
+  <!-- 左邊市售按摩椅 -->
+  <div id="product-info">
+      <h3>市售按摩椅</h3>
+      <table>
+          <tr>
+              <th>型號</th>
+              <th>數量</th>
+              <th>價格</th>
+          </tr>
+          <tr>
+              <td>按摩椅A</td>
+              <td>20</td>
+              <td>$2,000</td>
+          </tr>
+          <tr>
+              <td>按摩椅B</td>
+              <td>15</td>
+              <td>$2,500</td>
+          </tr>
+          <tr>
+              <td>按摩椅C</td>
+              <td>10</td>
+              <td>$3,000</td>
+          </tr>
+      </table>
+  </div>
+  <!-- 右邊顧客性別比例 -->
+  <div id="customer-gender">
+      <h3>顧客性別比例</h3>
+      <div>男性：60%</div>
+      <div>女性：40%</div>
+  </div>
+</div>
+</body>
+</html>
